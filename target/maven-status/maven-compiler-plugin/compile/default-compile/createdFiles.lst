@@ -1,0 +1,7 @@
+pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+pageObjects\ShoppingCartPage.class
+datapojo\AddPlace.class
+resources\base.class
+resources\TestDataBuild.class
+resources\ExtentReporterNG.class

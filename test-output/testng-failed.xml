@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="DemoProject.selenium.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="DemoProject.selenium.NewSeleniumTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DemoProject.selenium.NewSeleniumTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
